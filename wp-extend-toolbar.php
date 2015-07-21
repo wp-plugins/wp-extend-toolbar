@@ -31,7 +31,7 @@ class WP_Extend_Toolbar {
 	
 	function admin_bar_menu() {
 		
-		global $wp_admin_bar;
+		global $wp_admin_bar, $template;
 		
 		$wp_admin_bar->add_group( array(
 			'id'     => 'extend-toolbar',
@@ -54,6 +54,18 @@ class WP_Extend_Toolbar {
 			'meta'   => array(),
 		) );
 		
+		$title = sprintf(
+			'<span class="" style="font-size:13px;">テンプレート : </span> <span class="ab-label">%s</span>',
+			basename( $template )
+		);
+		
+		$wp_admin_bar->add_menu(
+			array(
+				'id'    => 'admin_bar_template_name',
+				'meta'  => array(),
+				'title' => $title,
+			)
+		);
 	}
 	
 	function enqueue() {
