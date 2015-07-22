@@ -16,11 +16,13 @@ WP Extend Toolbar is display the following page information to the admin bar.
 
 * content of Title tag.
 * content of Description tag.
+* content of Current Template file name.
 
 WP Extend Toolbar は、ツールバーを拡張し、以下のページ情報を表示します。
 
 * Title タグの内容
 * Description タグの内容
+* テンプレートファイル名
 
 
 == Installation ==
@@ -38,7 +40,7 @@ WP Extend Toolbar は、ツールバーを拡張し、以下のページ情報�
 == Changelog ==
 
 = 1.0.0 =
-Display "Template" to the admin bar.
+* Display "Template" to the admin bar.
 
 = 0.1.0 =
 * Initial release.
