@@ -1,0 +1,24 @@
+@charset 'utf-8';
+
+html { margin-top: 96px !important; }
+* html body { margin-top: 96px !important; }
+#wpadminbar { height: 96px !important; }
+#wp-admin-bar-extend-toolbar {
+	z-index: 9998 !important;
+}
+#wp-admin-bar-extend-toolbar-title {
+	position: absolute !important;
+	top: 32px;
+	left: 0;
+}
+#wp-admin-bar-extend-toolbar-description {
+	position: absolute !important;
+	top: 64px;
+	left: 0;
+}
+body.admin-bar {
+	padding-top: 96px;
+}
+body.admin-bar .navbar-fixed-top {
+	top: 96px !important;
+}
