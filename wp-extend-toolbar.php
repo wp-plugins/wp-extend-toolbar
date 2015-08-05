@@ -70,7 +70,7 @@ class WP_Extend_Toolbar {
 	
 	function enqueue() {
 		
-		wp_enqueue_style( 'wp-extend-toolbar', plugins_url( "css/wp-extend-toolbar.css", __FILE__ ), array(), '1.1.0' );
+		wp_enqueue_style( 'wp-extend-toolbar', plugins_url( "css/wp-extend-toolbar.css", __FILE__ ), array(), '1.1.1' );
 		wp_enqueue_script( 'wp-extend-toolbar', plugins_url( "js/wp-extend-toolbar.js", __FILE__ ), array( 'jquery' ), '1.1.0', true );
 		
 	}

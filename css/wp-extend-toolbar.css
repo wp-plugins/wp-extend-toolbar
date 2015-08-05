@@ -17,6 +17,7 @@ html { margin-top: 96px !important; }
 	left: 0;
 }
 body.admin-bar {
+	position: relative;
 	padding-top: 96px;
 }
 body.admin-bar .navbar-fixed-top {
